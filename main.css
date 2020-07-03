@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
+
+html, body{
+    font-family : 'Verela round', sans-serif;
+   height:100%;
+    width : 100%;
+    color : #222;
+}
+
+#joinForm,#loginForm{
+    background-color : rgba(233,233,233,0.7);
+    border : double black 2px;
+    margin : 0 33%;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border-radius:3px;
+}
+#joinForm input,#loginForm input{
+    padding : 5px;
+    border-radius : 3px;
+}
+#loginForm{
+        margin-bottom : 80px;
+}
+navbar{
+    padding : .8rem;
+}
+.navbar-nav li{
+    padding-right : 20px;
+}
+.nav-link{
+    font-size : 1.1em !important;
+}
+.carousel-inner img{
+    width : 100%;
+    height : 100%;
+}
+.carousel-caption{
+    position : absolute;
+    top : 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-caption h1{
+    font-size : 500%;
+    text-transform : uppercase;
+    text-shadow : 1px 1px 15px #000;
+}
+.carousel-caption h3{
+    font-size : 200%;
+    font-weight : 500;
+    text-shadow : 1px 1px 10px #000;
+    padding-bottom : 1rem;
+}
+/*.btn-warning{
+    background-color : orange;
+    border : 1px solid grey;
+}*/
+.btn-warning,btn-success{
+        opacity: 0.9;
+}
+.btn-warning:hover{
+    background-color : white;
+    border : 1px solid grey;
+}
+/*
+button .btn-warning:active{
+    background-color : orange;
+}
+.btn-success{
+    color : darkorange;
+    border-color: orange;
+    text-shadow:1px 1px 1px white;
+    font-weight: 300;
+    background-color : rgba(255,255,255,0.7);
+}
+.btn-success:hover{
+    border-color: orange;
+}*/
+/*footer*/
+footer{
+    background-color : #3f3f3f;
+    color : #d5d5d5;
+    padding-top : 2rem;
+}
+hr.light{
+    border-top : 1px solid #d5d5d5;
+    width : 75%;
+    margin-top : 0.8rem;
+    margin-bottom: 1rem;
+    color : #d5d5d5;
+}
+footer .btn-floating{
+    height : 60px;
+    width : 60px;
+    color : orange;
+    padding-top : 15px;
+    background-color : #3f3f3f;
+}
+
+.aboutIcons,aboutUsPictures{
+    height : 100px;
+    width: 100px;
+    border-radius : 50px;
+    border : solid black 2px;
+    margin-bottom : 15px;
+    margin-top : 15px;
+}
+
+article .md-3{
+    border : double 5px #111;
+    border-radius : 5px;
+    padding : 20px 40px;
+    margin-right : 20px;
+    background-color : rgba(233,233,233,0.7);
+}
+
+article .md-3 h4{
+    font-size : 20px;
+}
+article .md-3 h2{
+    color : black;
+}
+article{
+    margin-bottom : 30px;
+}
+article h1{
+    font-size : 50px;
+    margin-top : 30px;
+    margin-bottom : 20px;
+    color : white;
+    text-shadow : 1px 1px 5px black;
+    font-weight: 400;
+}
+.aboutUsPictures{
+    height : 120px;
+    width : 120px;
+    border-radius : 60px;
+    margin-top : 15px;
+    margin-bottom : 15px;
+}
+h4.infoText{
+    color : white;
+    text-shadow: 1px 1px 2px black;
+    font-weight: 300;
+}
+h5.infoAlias{
+    color : darkblue;
+}
+h3.friendText{
+    color: white;
+}
+h3.col-md-3:hover{
+    color : dodgerblue;
+    border : orange 1px solid;
+}
