@@ -8,6 +8,7 @@ Basically the user can create an account, then the platform offers him an agenda
   - Add a post
   - Remove a post
   - Edit a post if the user is the author of the post
+
 Also the user has the possibility to :
   - Add a friend
   - Remove a friend
